@@ -4,7 +4,7 @@ function setPageLogo() {
     document.createElement("link");
   link.type = "image/x-icon";
   link.rel = "shortcut icon";
-  link.href = "https://ezblock.cc/readDocFile/sunfounderIcon.png";
+  link.href = "https://cdn.jsdelivr.net/gh/sunfounder/rtd-plus@main/sunfounderIcon.png";
   document.getElementsByTagName("head")[0].appendChild(link);
 }
 
